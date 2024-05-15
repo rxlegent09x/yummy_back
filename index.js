@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 app.get("/", (req, res) => {
   res.send({
-    "status":"Get_Lost_From_Here !"
+    "status":"Please Get_Lost_From_Here !"
   });
 });
 app.use(express.static("public"));
